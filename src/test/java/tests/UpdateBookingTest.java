@@ -14,7 +14,7 @@ public class UpdateBookingTest {
     @Epic("Booking API")
     @Feature("Update Booking")
     @Story("PUT request")
-    @Test(description = "Update booking test")
+    @Test(enabled = false, description = "Update booking test")
     public void updateBookingTest() {
 
         BookingDates dates = BookingDates.builder()

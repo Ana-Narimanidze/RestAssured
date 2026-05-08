@@ -26,7 +26,7 @@ public class BookingRequest {
     private BookingDates bookingdates;
     private String additionalneeds;
 
-    @JsonIgnore // არ უნდა გაიგზავნოს
+    @JsonIgnore
     private Double saleprice;
 
     private String passportNo;
